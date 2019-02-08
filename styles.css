@@ -1,0 +1,52 @@
+h1 {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size:70px;
+}
+body, html {
+  height: 100%;
+  font-family: Cambria;
+}
+
+.button1 {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+#offers {
+	color: green;
+	font-size: 30px;
+}
+.button1:hover {
+  background-color: #20B2AA;
+  color: black;
+}
+
+.column{
+  float:right;
+  width:30%;
+  padding:10px;
+}
+.content {
+  width: 60%;
+  float:left;
+}
+table,th,td,tr{
+  padding: 5px;
+  border: 3px solid grey;
+  background-color: dark-gray;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: green;
+  text-align: center;
+}
